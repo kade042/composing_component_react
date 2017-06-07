@@ -13,3 +13,5 @@ class GroceryList extends Component {
     );
   }
 }
+
+export default GroceryList;
