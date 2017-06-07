@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-
+import GroceryList from './components/GroceryList';
 
 class Hello extends Component {
   render() {
@@ -11,4 +11,4 @@ class Hello extends Component {
 }
 
 
-React.render(<Hello />, document.getElementById('root'));
+React.render(<GroceryList />, document.getElementById('root'));
